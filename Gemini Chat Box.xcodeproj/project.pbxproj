@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B469335D2C5299BE00C3BB62 /* Gemini_Chat_BoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B469335C2C5299BE00C3BB62 /* Gemini_Chat_BoxApp.swift */; };
+		B469335F2C5299BE00C3BB62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B469335E2C5299BE00C3BB62 /* ContentView.swift */; };
+		B46933612C5299BE00C3BB62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46933602C5299BE00C3BB62 /* Assets.xcassets */; };
+		B46933642C5299BF00C3BB62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46933632C5299BF00C3BB62 /* Preview Assets.xcassets */; };
+		B469336E2C5299BF00C3BB62 /* Gemini_Chat_BoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B469336D2C5299BF00C3BB62 /* Gemini_Chat_BoxTests.swift */; };
+		B46933782C5299BF00C3BB62 /* Gemini_Chat_BoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46933772C5299BF00C3BB62 /* Gemini_Chat_BoxUITests.swift */; };
+		B469337A2C5299BF00C3BB62 /* Gemini_Chat_BoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46933792C5299BF00C3BB62 /* Gemini_Chat_BoxUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B469336A2C5299BF00C3BB62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46933512C5299BE00C3BB62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46933582C5299BE00C3BB62;
+			remoteInfo = "Gemini Chat Box";
+		};
+		B46933742C5299BF00C3BB62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46933512C5299BE00C3BB62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46933582C5299BE00C3BB62;
+			remoteInfo = "Gemini Chat Box";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B46933592C5299BE00C3BB62 /* Gemini Chat Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gemini Chat Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B469335C2C5299BE00C3BB62 /* Gemini_Chat_BoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gemini_Chat_BoxApp.swift; sourceTree = "<group>"; };
+		B469335E2C5299BE00C3BB62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B46933602C5299BE00C3BB62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B46933632C5299BF00C3BB62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B46933692C5299BF00C3BB62 /* Gemini Chat BoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gemini Chat BoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B469336D2C5299BF00C3BB62 /* Gemini_Chat_BoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gemini_Chat_BoxTests.swift; sourceTree = "<group>"; };
+		B46933732C5299BF00C3BB62 /* Gemini Chat BoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gemini Chat BoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46933772C5299BF00C3BB62 /* Gemini_Chat_BoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gemini_Chat_BoxUITests.swift; sourceTree = "<group>"; };
+		B46933792C5299BF00C3BB62 /* Gemini_Chat_BoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gemini_Chat_BoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B46933562C5299BE00C3BB62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46933662C5299BF00C3BB62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46933702C5299BF00C3BB62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B46933502C5299BE00C3BB62 = {
+			isa = PBXGroup;
+			children = (
+				B469335B2C5299BE00C3BB62 /* Gemini Chat Box */,
+				B469336C2C5299BF00C3BB62 /* Gemini Chat BoxTests */,
+				B46933762C5299BF00C3BB62 /* Gemini Chat BoxUITests */,
+				B469335A2C5299BE00C3BB62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B469335A2C5299BE00C3BB62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B46933592C5299BE00C3BB62 /* Gemini Chat Box.app */,
+				B46933692C5299BF00C3BB62 /* Gemini Chat BoxTests.xctest */,
+				B46933732C5299BF00C3BB62 /* Gemini Chat BoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B469335B2C5299BE00C3BB62 /* Gemini Chat Box */ = {
+			isa = PBXGroup;
+			children = (
+				B469335C2C5299BE00C3BB62 /* Gemini_Chat_BoxApp.swift */,
+				B469335E2C5299BE00C3BB62 /* ContentView.swift */,
+				B46933602C5299BE00C3BB62 /* Assets.xcassets */,
+				B46933622C5299BF00C3BB62 /* Preview Content */,
+			);
+			path = "Gemini Chat Box";
+			sourceTree = "<group>";
+		};
+		B46933622C5299BF00C3BB62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B46933632C5299BF00C3BB62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B469336C2C5299BF00C3BB62 /* Gemini Chat BoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				B469336D2C5299BF00C3BB62 /* Gemini_Chat_BoxTests.swift */,
+			);
+			path = "Gemini Chat BoxTests";
+			sourceTree = "<group>";
+		};
+		B46933762C5299BF00C3BB62 /* Gemini Chat BoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B46933772C5299BF00C3BB62 /* Gemini_Chat_BoxUITests.swift */,
+				B46933792C5299BF00C3BB62 /* Gemini_Chat_BoxUITestsLaunchTests.swift */,
+			);
+			path = "Gemini Chat BoxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B46933582C5299BE00C3BB62 /* Gemini Chat Box */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B469337D2C5299BF00C3BB62 /* Build configuration list for PBXNativeTarget "Gemini Chat Box" */;
+			buildPhases = (
+				B46933552C5299BE00C3BB62 /* Sources */,
+				B46933562C5299BE00C3BB62 /* Frameworks */,
+				B46933572C5299BE00C3BB62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gemini Chat Box";
+			productName = "Gemini Chat Box";
+			productReference = B46933592C5299BE00C3BB62 /* Gemini Chat Box.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B46933682C5299BF00C3BB62 /* Gemini Chat BoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46933802C5299BF00C3BB62 /* Build configuration list for PBXNativeTarget "Gemini Chat BoxTests" */;
+			buildPhases = (
+				B46933652C5299BF00C3BB62 /* Sources */,
+				B46933662C5299BF00C3BB62 /* Frameworks */,
+				B46933672C5299BF00C3BB62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B469336B2C5299BF00C3BB62 /* PBXTargetDependency */,
+			);
+			name = "Gemini Chat BoxTests";
+			productName = "Gemini Chat BoxTests";
+			productReference = B46933692C5299BF00C3BB62 /* Gemini Chat BoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B46933722C5299BF00C3BB62 /* Gemini Chat BoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46933832C5299BF00C3BB62 /* Build configuration list for PBXNativeTarget "Gemini Chat BoxUITests" */;
+			buildPhases = (
+				B469336F2C5299BF00C3BB62 /* Sources */,
+				B46933702C5299BF00C3BB62 /* Frameworks */,
+				B46933712C5299BF00C3BB62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46933752C5299BF00C3BB62 /* PBXTargetDependency */,
+			);
+			name = "Gemini Chat BoxUITests";
+			productName = "Gemini Chat BoxUITests";
+			productReference = B46933732C5299BF00C3BB62 /* Gemini Chat BoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B46933512C5299BE00C3BB62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B46933582C5299BE00C3BB62 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B46933682C5299BF00C3BB62 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B46933582C5299BE00C3BB62;
+					};
+					B46933722C5299BF00C3BB62 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B46933582C5299BE00C3BB62;
+					};
+				};
+			};
+			buildConfigurationList = B46933542C5299BE00C3BB62 /* Build configuration list for PBXProject "Gemini Chat Box" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B46933502C5299BE00C3BB62;
+			productRefGroup = B469335A2C5299BE00C3BB62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B46933582C5299BE00C3BB62 /* Gemini Chat Box */,
+				B46933682C5299BF00C3BB62 /* Gemini Chat BoxTests */,
+				B46933722C5299BF00C3BB62 /* Gemini Chat BoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B46933572C5299BE00C3BB62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46933642C5299BF00C3BB62 /* Preview Assets.xcassets in Resources */,
+				B46933612C5299BE00C3BB62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46933672C5299BF00C3BB62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46933712C5299BF00C3BB62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B46933552C5299BE00C3BB62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B469335F2C5299BE00C3BB62 /* ContentView.swift in Sources */,
+				B469335D2C5299BE00C3BB62 /* Gemini_Chat_BoxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46933652C5299BF00C3BB62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B469336E2C5299BF00C3BB62 /* Gemini_Chat_BoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B469336F2C5299BF00C3BB62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46933782C5299BF00C3BB62 /* Gemini_Chat_BoxUITests.swift in Sources */,
+				B469337A2C5299BF00C3BB62 /* Gemini_Chat_BoxUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B469336B2C5299BF00C3BB62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46933582C5299BE00C3BB62 /* Gemini Chat Box */;
+			targetProxy = B469336A2C5299BF00C3BB62 /* PBXContainerItemProxy */;
+		};
+		B46933752C5299BF00C3BB62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46933582C5299BE00C3BB62 /* Gemini Chat Box */;
+			targetProxy = B46933742C5299BF00C3BB62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B469337B2C5299BF00C3BB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B469337C2C5299BF00C3BB62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B469337E2C5299BF00C3BB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gemini Chat Box/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "learning.Gemini-Chat-Box";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B469337F2C5299BF00C3BB62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gemini Chat Box/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "learning.Gemini-Chat-Box";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B46933812C5299BF00C3BB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "learning.Gemini-Chat-BoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gemini Chat Box.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gemini Chat Box";
+			};
+			name = Debug;
+		};
+		B46933822C5299BF00C3BB62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "learning.Gemini-Chat-BoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gemini Chat Box.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gemini Chat Box";
+			};
+			name = Release;
+		};
+		B46933842C5299BF00C3BB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "learning.Gemini-Chat-BoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gemini Chat Box";
+			};
+			name = Debug;
+		};
+		B46933852C5299BF00C3BB62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "learning.Gemini-Chat-BoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gemini Chat Box";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B46933542C5299BE00C3BB62 /* Build configuration list for PBXProject "Gemini Chat Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B469337B2C5299BF00C3BB62 /* Debug */,
+				B469337C2C5299BF00C3BB62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B469337D2C5299BF00C3BB62 /* Build configuration list for PBXNativeTarget "Gemini Chat Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B469337E2C5299BF00C3BB62 /* Debug */,
+				B469337F2C5299BF00C3BB62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46933802C5299BF00C3BB62 /* Build configuration list for PBXNativeTarget "Gemini Chat BoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46933812C5299BF00C3BB62 /* Debug */,
+				B46933822C5299BF00C3BB62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46933832C5299BF00C3BB62 /* Build configuration list for PBXNativeTarget "Gemini Chat BoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46933842C5299BF00C3BB62 /* Debug */,
+				B46933852C5299BF00C3BB62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B46933512C5299BE00C3BB62 /* Project object */;
+}
