@@ -5,3 +5,4 @@ Checkout out the video tutorial for code understanding step by step https://yout
 Attached is the screen recording of the application: 
 https://github.com/user-attachments/assets/b5d586e0-9bc5-4e04-9d40-696ba1868fa7
 
+![leetcode-3](https://github.com/user-attachments/assets/057adb64-224f-46e1-86ac-173375129750)
