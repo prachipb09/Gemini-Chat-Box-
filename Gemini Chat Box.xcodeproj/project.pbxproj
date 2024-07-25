@@ -14,6 +14,8 @@
 		B469336E2C5299BF00C3BB62 /* Gemini_Chat_BoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B469336D2C5299BF00C3BB62 /* Gemini_Chat_BoxTests.swift */; };
 		B46933782C5299BF00C3BB62 /* Gemini_Chat_BoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46933772C5299BF00C3BB62 /* Gemini_Chat_BoxUITests.swift */; };
 		B469337A2C5299BF00C3BB62 /* Gemini_Chat_BoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46933792C5299BF00C3BB62 /* Gemini_Chat_BoxUITestsLaunchTests.swift */; };
+		B46933882C5299FA00C3BB62 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = B46933872C5299FA00C3BB62 /* GoogleGenerativeAI */; };
+		B469338B2C529A1C00C3BB62 /* ChatBotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B469338A2C529A1C00C3BB62 /* ChatBotViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B46933732C5299BF00C3BB62 /* Gemini Chat BoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gemini Chat BoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46933772C5299BF00C3BB62 /* Gemini_Chat_BoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gemini_Chat_BoxUITests.swift; sourceTree = "<group>"; };
 		B46933792C5299BF00C3BB62 /* Gemini_Chat_BoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gemini_Chat_BoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B469338A2C529A1C00C3BB62 /* ChatBotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotViewModel.swift; sourceTree = "<group>"; };
+		B46933962C52A17E00C3BB62 /* Gemini-Chat-Box-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gemini-Chat-Box-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46933882C5299FA00C3BB62 /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,7 @@
 		B46933502C5299BE00C3BB62 = {
 			isa = PBXGroup;
 			children = (
+				B46933962C52A17E00C3BB62 /* Gemini-Chat-Box-Info.plist */,
 				B469335B2C5299BE00C3BB62 /* Gemini Chat Box */,
 				B469336C2C5299BF00C3BB62 /* Gemini Chat BoxTests */,
 				B46933762C5299BF00C3BB62 /* Gemini Chat BoxUITests */,
@@ -95,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				B469335C2C5299BE00C3BB62 /* Gemini_Chat_BoxApp.swift */,
+				B46933892C529A0A00C3BB62 /* ViewModel */,
 				B469335E2C5299BE00C3BB62 /* ContentView.swift */,
 				B46933602C5299BE00C3BB62 /* Assets.xcassets */,
 				B46933622C5299BF00C3BB62 /* Preview Content */,
@@ -127,6 +134,14 @@
 			path = "Gemini Chat BoxUITests";
 			sourceTree = "<group>";
 		};
+		B46933892C529A0A00C3BB62 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B469338A2C529A1C00C3BB62 /* ChatBotViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +158,9 @@
 			dependencies = (
 			);
 			name = "Gemini Chat Box";
+			packageProductDependencies = (
+				B46933872C5299FA00C3BB62 /* GoogleGenerativeAI */,
+			);
 			productName = "Gemini Chat Box";
 			productReference = B46933592C5299BE00C3BB62 /* Gemini Chat Box.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +233,9 @@
 				Base,
 			);
 			mainGroup = B46933502C5299BE00C3BB62;
+			packageReferences = (
+				B46933862C5299FA00C3BB62 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			productRefGroup = B469335A2C5299BE00C3BB62 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B469335F2C5299BE00C3BB62 /* ContentView.swift in Sources */,
+				B469338B2C529A1C00C3BB62 /* ChatBotViewModel.swift in Sources */,
 				B469335D2C5299BE00C3BB62 /* Gemini_Chat_BoxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +446,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Gemini Chat Box/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gemini-Chat-Box-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +475,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Gemini Chat Box/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gemini-Chat-Box-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -582,6 +606,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B46933862C5299FA00C3BB62 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google-gemini/generative-ai-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B46933872C5299FA00C3BB62 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B46933862C5299FA00C3BB62 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B46933512C5299BE00C3BB62 /* Project object */;
 }
